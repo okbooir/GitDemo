@@ -12,4 +12,14 @@ public class GitTraining {
         System.out.println("zaky");
     }
 
+    @Test
+    public void postjiraz() {
+        System.out.println("amr");
+        System.out.println("awad");
+        System.out.println("khlaf");
+
+        System.out.println("ali");
+    }
+
+
 }
