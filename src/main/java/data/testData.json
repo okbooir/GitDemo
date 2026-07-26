@@ -1,0 +1,16 @@
+[
+  {
+    "email" : "ryan@gmail.com",
+    "password" : "Ilovetest1!",
+    "productName" : "ZARA COAT 3",
+    "country" : "Egypt"
+  } ,
+
+  {
+    "email" : "ryano@gmail.com",
+    "password" : "Ilovetest1!",
+    "productName" : "ADIDAS ORIGINAL",
+    "country" : "Egypt"
+  }
+
+]
