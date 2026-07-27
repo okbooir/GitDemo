@@ -15,7 +15,7 @@ import java.net.URISyntaxException;
 public class GridTestOne {
 
     @Test
-    public void homepageCheck() throws URISyntaxException, MalformedURLException {
+    public void  homepageCheck() throws URISyntaxException, MalformedURLException {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setBrowserName("chrome");
         caps.setPlatform(Platform.WIN11);
