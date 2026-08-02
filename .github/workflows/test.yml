@@ -16,12 +16,12 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v5
         with:
-          java-version: '17'
+          java-version: '25'
           distribution: 'temurin'
           cache: maven
 
       - name: Run Selenium Tests
-        run: mvn test -Psmoke -Dbrowser=chromeheadless
+        run: mvn test -PRegression -Dbrowser=chromeheadless
 
       - name: Upload Extent Report
         if: always()
