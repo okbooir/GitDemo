@@ -21,7 +21,7 @@ jobs:
           cache: maven
 
       - name: Run Selenium Tests
-        run: mvn test -PRegression -Dbrowser=chromeheadless
+        run: mvn test -Psmoke -Dbrowser=chromeheadless
 
       - name: Upload Extent Report
         if: always()
