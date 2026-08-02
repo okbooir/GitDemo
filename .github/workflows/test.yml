@@ -25,7 +25,7 @@ jobs:
 
       - name: Upload Extent Report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: extent-report
           path: reports/
