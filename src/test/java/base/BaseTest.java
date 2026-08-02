@@ -25,6 +25,7 @@ import pageobjects.LandingPage;
 import java.io.File;
 import java.io.FileInputStream;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
@@ -193,10 +194,7 @@ public class BaseTest {
     protected String getScreenshot(String testCaseName) throws IOException {
         TakesScreenshot ts = (TakesScreenshot) getDriver();
         File source = ts.getScreenshotAs(OutputType.FILE);
-        String destination = System.getProperty("user.dir")
-                + "\\reports\\"
-                + testCaseName
-                + ".png";
+        String destination = Paths.get(System.getProperty("user.dir"), "reports", testCaseName + ".png").toString();
 
         FileUtils.copyFile(source, new File(destination));
 
