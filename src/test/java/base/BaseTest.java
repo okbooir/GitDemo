@@ -116,9 +116,9 @@ public class BaseTest {
             LoggingPreferences logs = new LoggingPreferences();
             logs.enable(LogType.BROWSER, Level.ALL);
             options.setCapability("goog:loggingPrefs", logs);
-            WebDriverManager.chromedriver().setup();
             if (browserName.toLowerCase().contains("headless")) {
                 options.addArguments("--headless=new", "--window-size=1920,1080");            }
+            WebDriverManager.chromedriver().setup();
             DRIVER.set(ThreadGuard.protect(new ChromeDriver(options)));
 
         }
@@ -146,9 +146,9 @@ public class BaseTest {
         }
 
         //getDriver().manage().window().setSize(new Dimension(1440,900)); // run in full screen
-        if (!browserName.toLowerCase().contains("headless")) {
+        /*if (!browserName.toLowerCase().contains("headless")) {
             getDriver().manage().window().maximize();
-        }
+        }*/
 
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         return getDriver();
@@ -157,17 +157,17 @@ public class BaseTest {
 
     protected final WebDriver getDriver() {
 
-        WebDriver currentDriver = DRIVER.get();
+        //WebDriver currentDriver = DRIVER.get();
 
-        if (currentDriver == null) {
+        /*if (currentDriver == null) {
             throw new IllegalStateException(
                     "No WebDriver exists for thread: "
                             + Thread.currentThread().getId()
                             + ". Check that @BeforeMethod executed successfully."
             );
-        }
+        } */
 
-        return currentDriver;
+        return DRIVER.get();
     }
 
     /*protected final LandingPage getLandingPage() {
