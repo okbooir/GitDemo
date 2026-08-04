@@ -11,13 +11,29 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chromium.HasCdp;
+import org.openqa.selenium.devtools.DevTools;
+import org.openqa.selenium.devtools.HasDevTools;
+import org.openqa.selenium.devtools.v148.network.Network;
+import org.openqa.selenium.devtools.v148.network.model.Request;
+import org.openqa.selenium.devtools.v148.network.model.Response;
+import org.openqa.selenium.devtools.v150.emulation.Emulation;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pageobjects.*;
+
+import org.openqa.selenium.devtools.v150.fetch.Fetch;
+import org.openqa.selenium.devtools.v150.fetch.model.HeaderEntry;
+import org.openqa.selenium.devtools.v150.fetch.model.RequestPattern;
+import org.openqa.selenium.devtools.v150.fetch.model.RequestStage;
+import java.nio.charset.StandardCharsets;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -69,7 +85,7 @@ public class ErrorValidation extends BaseTest {
                 .until(d -> Files.exists(Paths.get("C:\\Users\\ahmed\\Downloads\\download.xlsx")));
 
         //edit excel
-        editCell2("C:\\Users\\ahmed\\Downloads\\download.xlsx","price","apple","380");
+        editCell2("C:\\Users\\ahmed\\Downloads\\download.xlsx", "price", "apple", "380");
         //editCell("C:\\Users\\ahmed\\Downloads\\download.xlsx", 2, 3, "350");
 
         //upload

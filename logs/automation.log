@@ -1,0 +1,44 @@
+2026-08-04 07:33:42 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-08-04 07:33:42 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 07:33:42 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 07:35:33 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-04 07:35:33 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 07:35:33 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 07:35:39 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 07:35:39 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 07:35:44 ERROR [TestNG-tests-1] base.Listeners - Browser JS Error: https://rahulshettyacademy.com/api/ecom/auth/login - Failed to load resource: the server responded with a status of 400 (Bad Request)
+2026-08-04 07:42:28 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-08-04 07:42:29 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 07:42:29 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 07:43:16 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-08-04 07:43:16 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 07:43:16 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 07:47:16 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-08-04 07:47:17 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 07:47:17 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 07:50:32 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-08-04 07:50:32 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 07:50:32 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 07:55:16 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runalltests.xml
+
+2026-08-04 07:55:17 INFO  [TestNG-test-error validate Tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 07:55:17 INFO  [TestNG-test-error validate Tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 07:55:23 ERROR [TestNG-test-error validate Tests-1] base.Listeners - Browser JS Error: https://rahulshettyacademy.com/angularAppdemo/main.954e66096a8c863a96f6.js 0:34269 "ERROR" "Parameter is not a number!"
+2026-08-04 07:57:17 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-08-04 07:57:18 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 07:57:18 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe

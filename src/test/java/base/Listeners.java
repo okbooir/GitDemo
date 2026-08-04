@@ -4,15 +4,23 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogType;
+import org.openqa.selenium.logging.LogEntry;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import resources.ExtentReportNG;
 
+import java.util.logging.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 // ITestListener interface which implements testNg Listeners
 public class Listeners extends BaseTest implements ITestListener {      // we implement ITestListener Interface
     private final ExtentReports extent = ExtentReportNG.getReportObject();
     private final ThreadLocal<ExtentTest> extentTest = new ThreadLocal<ExtentTest>();
+    private static final Logger logger = LogManager.getLogger(Listeners.class);
 
     @Override
     public void onTestStart(ITestResult result) {
@@ -41,6 +49,20 @@ public class Listeners extends BaseTest implements ITestListener {      // we im
         // Add the failure exception to ExtentReports
         if (currentExtentTest != null) {
             currentExtentTest.fail(result.getThrowable());
+        }
+
+            LogEntries browserLogs = getDriver().manage().logs().get(LogType.BROWSER);
+
+        for (LogEntry log : browserLogs) {
+
+            if (log.getLevel().intValue() >= Level.SEVERE.intValue()) {
+
+                System.out.println("JS ERROR: " + log.getMessage());
+                logger.error("Browser JS Error: {}", log.getMessage());
+                if (currentExtentTest != null) {
+                    currentExtentTest.fail("Browser JS Error: " + log.getMessage());
+                }
+            }
         }
 
         // Object testInstance = result.getInstance();
