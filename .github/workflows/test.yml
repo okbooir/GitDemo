@@ -21,7 +21,7 @@ jobs:
           cache: maven
 
       - name: Run Selenium Tests
-        run: mvn test -PRegression -Dbrowser=chromeheadless
+        run: mvn clean test -PRegression -Dbrowser=chromeheadless -DtrimStackTrace=false -e
 
       - name: Upload Extent Report
         if: always()
@@ -29,3 +29,17 @@ jobs:
         with:
           name: extent-report
           path: reports/
+
+      - name: Upload Surefire Reports
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: surefire-reports
+          path: target/surefire-reports/
+
+      - name: Upload Log4j Logs
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: automation-logs
+          path: logs/
