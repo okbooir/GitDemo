@@ -132,12 +132,7 @@ public class Devtools extends BaseTest {
                 Optional.of(RequestStage.REQUEST)
         );
 
-        devTools.send(
-                Fetch.enable(
-                        Optional.of(List.of(pattern)),
-                        Optional.of(false)
-                )
-        );
+        devTools.send(Fetch.enable(Optional.of(List.of(pattern)), Optional.of(false)));
 
         devTools.addListener(Fetch.requestPaused(), request -> {
 
@@ -164,16 +159,7 @@ public class Devtools extends BaseTest {
 
             );
 
-            devTools.send(
-                    Fetch.fulfillRequest(
-                            request.getRequestId(),
-                            200,
-                            Optional.of(headers),
-                            Optional.empty(),
-                            Optional.of(encodedBody),
-                            Optional.empty()
-                    )
-            );
+            devTools.send(Fetch.fulfillRequest(request.getRequestId(), 200, Optional.of(headers), Optional.empty(), Optional.of(encodedBody), Optional.empty()));
         });
 
         getDriver().get("https://rahulshettyacademy.com/angularAppdemo");
@@ -253,7 +239,7 @@ public class Devtools extends BaseTest {
     }
 
     @Test (enabled = false)
-    public void devTools_mockNetworkSpeed() throws InterruptedException { // mock speed ( make slow speed network by applying LATENCY(delay), downloadBytes, uploadBytes ) to see website behavior to determine the waits secs you should use in your tests and catch http fails
+    public void devTools_mockNetworkSpeed() throws InterruptedException {   // mock speed ( make slow speed network by applying LATENCY(delay), downloadBytes, uploadBytes ) to see website behavior to determine the waits secs you should use in your tests and catch http fails
         HasDevTools chrome = (HasDevTools) getDriver();
 
         DevTools devTools = chrome.getDevTools();
