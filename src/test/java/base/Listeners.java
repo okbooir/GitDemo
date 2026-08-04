@@ -51,7 +51,7 @@ public class Listeners extends BaseTest implements ITestListener {      // we im
             currentExtentTest.fail(result.getThrowable());
         }
 
-        if (getDriver() != null) {
+        //if (getDriver() != null) {
 
             LogEntries browserLogs = getDriver().manage().logs().get(LogType.BROWSER);
 
@@ -66,7 +66,7 @@ public class Listeners extends BaseTest implements ITestListener {      // we im
                     }
                 }
             }
-        }
+        //}
 
         // Object testInstance = result.getInstance();
 
