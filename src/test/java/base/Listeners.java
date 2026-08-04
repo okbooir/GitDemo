@@ -44,126 +44,126 @@ public class Listeners extends BaseTest implements ITestListener {      // we im
 
     @Override
     public void onTestFailure(ITestResult result) {
-
         ExtentTest currentExtentTest = extentTest.get();
-        WebDriver currentDriver = getDriver();
+
+        // Add the failure exception to ExtentReports
+        if (currentExtentTest != null) {
+            currentExtentTest.fail(result.getThrowable());
+        }
+
+        if (getDriver() != null) {
+
+            LogEntries browserLogs = getDriver().manage().logs().get(LogType.BROWSER);
+
+            for (LogEntry log : browserLogs) {
+
+                if (log.getLevel().intValue() >= Level.SEVERE.intValue()) {
+
+                    System.out.println("JS ERROR: " + log.getMessage());
+                    logger.error("Browser JS Error: {}", log.getMessage());
+                    if (currentExtentTest != null) {
+                        currentExtentTest.fail("Browser JS Error: " + log.getMessage());
+                    }
+                }
+            }
+        }
+
+        // Object testInstance = result.getInstance();
+
+       /* if (!(testInstance instanceof BaseTest)) {
+
+            if (currentExtentTest != null) {
+                currentExtentTest.warning(
+                        "Screenshot was not captured because the test class "
+                                + "does not extend BaseTest."
+                );
+            }
+
+            return;
+        }
+
+        BaseTest baseTest = (BaseTest) testInstance; */
+
+        try {
+            /*
+             * This retrieves the WebDriver associated with
+             * the current TestNG thread.
+             */
+            //WebDriver currentDriver = baseTest.getDriver();
+
+            /*
+             * A unique name prevents parallel tests from
+             * overwriting each other's screenshots.
+             */
+            String screenshotName =
+                    result.getMethod().getMethodName()
+                            + "_thread_"
+                            + Thread.currentThread().getId()
+                            + "_"
+                            + System.currentTimeMillis();
+
+            String screenshotPath = getScreenshot(
+                    screenshotName);
+
+            System.out.println(
+                    "FAILURE SCREENSHOT | Thread: "
+                            + Thread.currentThread().getId()
+                            + " | Driver: "
+                            + System.identityHashCode(getDriver())
+            );
+
+            if (currentExtentTest != null) {
+                currentExtentTest.addScreenCaptureFromPath(
+                        screenshotPath,
+                        "Failure Screenshot"
+                );
+            }
+
+        } catch (IllegalStateException exception) {
+
+            /*
+             * This can happen when @BeforeMethod failed before
+             * the driver was initialized.
+             */
+            if (currentExtentTest != null) {
+                currentExtentTest.warning(
+                        "Screenshot was not captured because the driver "
+                                + "was unavailable: "
+                                + exception.getMessage()
+                );
+            }
+
+        } catch (Exception exception) {
+
+            if (currentExtentTest != null) {
+                currentExtentTest.warning(
+                        "Screenshot capture failed: "
+                                + exception.getMessage()
+                );
+            }
+        }
+        extentTest.remove();
+        // ITestListener.super.onTestFailure(result);
+        /*extentTest.get().fail(result.getThrowable());
+
+        WebDriver driver = null;
+        String path = null;
 
         try {
 
-            // Add original test failure to ExtentReports
-            if (currentExtentTest != null) {
-                currentExtentTest.fail(result.getThrowable());
-            }
+            driver = (WebDriver) result.getTestClass()
+                    .getRealClass()
+                    .getField("driver")
+                    .get(result.getInstance());
 
-            // Capture browser console errors
-            if (currentDriver != null) {
-
-                try {
-
-                    LogEntries browserLogs =
-                            currentDriver.manage()
-                                    .logs()
-                                    .get(LogType.BROWSER);
-
-                    for (LogEntry log : browserLogs) {
-
-                        if (log.getLevel().intValue()
-                                >= Level.SEVERE.intValue()) {
-
-                            System.out.println(
-                                    "JS ERROR: " + log.getMessage()
-                            );
-
-                            logger.error(
-                                    "Browser JS Error: {}",
-                                    log.getMessage()
-                            );
-
-                            if (currentExtentTest != null) {
-                                currentExtentTest.fail(
-                                        "Browser JS Error: "
-                                                + log.getMessage()
-                                );
-                            }
-                        }
-                    }
-
-                } catch (Exception e) {
-
-                    logger.error(
-                            "Could not capture browser console logs for test: {}",
-                            result.getName(),
-                            e
-                    );
-
-                    if (currentExtentTest != null) {
-                        currentExtentTest.warning(
-                                "Browser console logs could not be captured: "
-                                        + e.getMessage()
-                        );
-                    }
-                }
-            }
-
-            // Capture screenshot
-            if (currentDriver != null) {
-
-                try {
-
-                    String screenshotName =
-                            result.getMethod().getMethodName()
-                                    + "_thread_"
-                                    + Thread.currentThread().getId()
-                                    + "_"
-                                    + System.currentTimeMillis();
-
-                    String screenshotPath =
-                            getScreenshot(screenshotName);
-
-                    System.out.println(
-                            "FAILURE SCREENSHOT | Thread: "
-                                    + Thread.currentThread().getId()
-                                    + " | Driver: "
-                                    + System.identityHashCode(currentDriver)
-                    );
-
-                    if (currentExtentTest != null) {
-                        currentExtentTest.addScreenCaptureFromPath(
-                                screenshotPath,
-                                "Failure Screenshot"
-                        );
-                    }
-
-                } catch (Exception e) {
-
-                    logger.error(
-                            "Screenshot capture failed for test: {}",
-                            result.getName(),
-                            e
-                    );
-
-                    if (currentExtentTest != null) {
-                        currentExtentTest.warning(
-                                "Screenshot capture failed: "
-                                        + e.getMessage()
-                        );
-                    }
-                }
-            }
+            path = getScreenshot(result.getName(), driver);
 
         } catch (Exception e) {
-
-            // Listener itself must not crash TestNG
-            logger.error(
-                    "Error inside onTestFailure for test: {}",
-                    result.getName(),
-                    e
-            );
-
-        } finally {
-
-            extentTest.remove();
+            e.printStackTrace();
         }
+
+        extentTest.get().addScreenCaptureFromPath(path,result.getName()); */
+
     }
 
     @Override
