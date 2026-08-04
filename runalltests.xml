@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
-<suite name="MySuite" parallel="methods">
+<suite name="MySuite" parallel="tests">
     <listeners>
         <listener class-name="base.Listeners"/>
     </listeners>
