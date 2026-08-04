@@ -51,16 +51,19 @@ public class Listeners extends BaseTest implements ITestListener {      // we im
             currentExtentTest.fail(result.getThrowable());
         }
 
+        if (getDriver() != null) {
+
             LogEntries browserLogs = getDriver().manage().logs().get(LogType.BROWSER);
 
-        for (LogEntry log : browserLogs) {
+            for (LogEntry log : browserLogs) {
 
-            if (log.getLevel().intValue() >= Level.SEVERE.intValue()) {
+                if (log.getLevel().intValue() >= Level.SEVERE.intValue()) {
 
-                System.out.println("JS ERROR: " + log.getMessage());
-                logger.error("Browser JS Error: {}", log.getMessage());
-                if (currentExtentTest != null) {
-                    currentExtentTest.fail("Browser JS Error: " + log.getMessage());
+                    System.out.println("JS ERROR: " + log.getMessage());
+                    logger.error("Browser JS Error: {}", log.getMessage());
+                    if (currentExtentTest != null) {
+                        currentExtentTest.fail("Browser JS Error: " + log.getMessage());
+                    }
                 }
             }
         }
