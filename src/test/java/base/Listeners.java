@@ -85,6 +85,41 @@ public class Listeners extends BaseTest implements ITestListener {      // we im
         BaseTest baseTest = (BaseTest) testInstance; */
 
         try {
+
+            LogEntries browserLogs =
+                    getDriver().manage()
+                            .logs()
+                            .get(LogType.BROWSER);
+
+            for (LogEntry log : browserLogs) {
+
+                if (log.getLevel() == Level.SEVERE) {
+
+                    logger.error(
+                            "Browser JS Error: {}",
+                            log.getMessage()
+                    );
+
+                    if (currentExtentTest != null) {
+                        currentExtentTest.fail(
+                                "Browser JS Error: "
+                                        + log.getMessage()
+                        );
+                    }
+                }
+            }
+
+        } catch (Exception e) {
+
+            logger.warn(
+                    "Browser console logs could not be captured: "
+                            + e.getMessage()
+            );
+        }
+
+
+
+        try {
             /*
              * This retrieves the WebDriver associated with
              * the current TestNG thread.
