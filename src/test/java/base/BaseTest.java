@@ -157,15 +157,15 @@ public class BaseTest {
 
     protected final WebDriver getDriver() {
 
-        //WebDriver currentDriver = DRIVER.get();
+        WebDriver currentDriver = DRIVER.get();
 
-        /*if (currentDriver == null) {
+        if (currentDriver == null) {
             throw new IllegalStateException(
                     "No WebDriver exists for thread: "
                             + Thread.currentThread().getId()
                             + ". Check that @BeforeMethod executed successfully."
             );
-        } */
+        }
 
         return DRIVER.get();
     }
