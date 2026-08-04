@@ -36,7 +36,7 @@ import java.util.function.Supplier;
 
 public class Devtools extends BaseTest {
 
-    @Test (enabled = false)
+    @Test
     public void devTools_mobileView() throws InterruptedException {
         HasDevTools chromeDriver = (HasDevTools) getDriver();
 
@@ -69,7 +69,7 @@ public class Devtools extends BaseTest {
         getDriver().findElement(By.linkText("Library")).click();
     }
 
-    @Test (enabled = false)
+    @Test
     public void devTools_localizationTesting() {
         HasDevTools chromeDriver = (HasDevTools) getDriver();
 
@@ -87,7 +87,7 @@ public class Devtools extends BaseTest {
         getDriver().findElement(By.name("q")).sendKeys("netflix", Keys.ENTER);
     }
 
-    @Test (enabled = false)
+    @Test
     public void devTools_logNetworkActivity() { // ex. to check responses status codes and make sure they are success
         HasDevTools chromeDriver = (HasDevTools) getDriver();
         org.openqa.selenium.devtools.DevTools devTools = chromeDriver.getDevTools();
@@ -119,7 +119,7 @@ public class Devtools extends BaseTest {
 
     }
 
-    @Test (enabled = false)
+    @Test
     public void devTools_mockResponsOfNetworkRequest() throws InterruptedException {  // will mock an api response of a specific request to see that data on page updated according to the mocked response
         HasDevTools chrome = (HasDevTools) getDriver();
 
@@ -167,7 +167,7 @@ public class Devtools extends BaseTest {
         Assert.assertEquals(getDriver().findElement(By.cssSelector("p")).getText() , "Oops only 1 Book available");
     }
 
-    @Test (enabled = false)
+    @Test
     public void devTools_mockRequestUrlOfNetworkRequest() throws InterruptedException {  // will mock an api request URL of a specific request
         HasDevTools chrome = (HasDevTools) getDriver();
 
@@ -190,7 +190,7 @@ public class Devtools extends BaseTest {
 
     }
 
-    @Test (enabled = false)
+    @Test
     public void devTools_FailaRequest() throws InterruptedException {  // we will fail a network request to check a specific fail message that will shown on page
         HasDevTools chrome = (HasDevTools) getDriver();
 
@@ -216,7 +216,7 @@ public class Devtools extends BaseTest {
 
     }
 
-    @Test (enabled = false)
+    @Test
     public void devTools_BlockaRequest_BlockUrl() throws InterruptedException { // make the request not made from beginning (ex. to stop loading of css/images/components on the page)
         HasDevTools chrome = (HasDevTools) getDriver();
 
@@ -238,7 +238,7 @@ public class Devtools extends BaseTest {
 
     }
 
-    @Test (enabled = false)
+    @Test
     public void devTools_mockNetworkSpeed() throws InterruptedException {   // mock speed ( make slow speed network by applying LATENCY(delay), downloadBytes, uploadBytes ) to see website behavior to determine the waits secs you should use in your tests and catch http fails
         HasDevTools chrome = (HasDevTools) getDriver();
 
@@ -261,7 +261,7 @@ public class Devtools extends BaseTest {
 
     }
 
-    @Test (enabled = false)
+    @Test
     public void devTools_handleBasicAuth() throws InterruptedException {   // handle basic auth window to login to a link the require user & pass (( Best for CI because AUTO IT can't handle it in headless in jenkins ))
 // predicate (intro
         Predicate<URI> uriPredicate = uri -> uri.getHost().contains("httpbin.org");
