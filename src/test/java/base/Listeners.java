@@ -45,6 +45,7 @@ public class Listeners extends BaseTest implements ITestListener {      // we im
     @Override
     public void onTestFailure(ITestResult result) {
         ExtentTest currentExtentTest = extentTest.get();
+        WebDriver currentDriver = getDriver();
 
         // Add the failure exception to ExtentReports
         if (currentExtentTest != null) {
@@ -53,7 +54,7 @@ public class Listeners extends BaseTest implements ITestListener {      // we im
 
         //if (getDriver() != null) {
 
-            LogEntries browserLogs = getDriver().manage().logs().get(LogType.BROWSER);
+            LogEntries browserLogs = currentDriver.manage().logs().get(LogType.BROWSER);
 
             for (LogEntry log : browserLogs) {
 
@@ -109,7 +110,7 @@ public class Listeners extends BaseTest implements ITestListener {      // we im
                     "FAILURE SCREENSHOT | Thread: "
                             + Thread.currentThread().getId()
                             + " | Driver: "
-                            + System.identityHashCode(getDriver())
+                            + System.identityHashCode(currentDriver)
             );
 
             if (currentExtentTest != null) {
