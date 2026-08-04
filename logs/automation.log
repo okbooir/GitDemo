@@ -72,3 +72,43 @@
 2026-08-04 08:10:18 INFO  [TestNG-test-error validate Tests-3] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
 2026-08-04 08:10:18 INFO  [TestNG-test-error validate Tests-4] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
 2026-08-04 08:10:18 INFO  [TestNG-test-error validate Tests-4] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:05 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runalltests.xml
+
+2026-08-04 08:43:06 INFO  [TestNG-test-error validate Tests-3] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:06 INFO  [TestNG-PoolService-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:06 INFO  [TestNG-PoolService-2] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:06 INFO  [TestNG-PoolService-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:06 INFO  [TestNG-PoolService-2] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:06 INFO  [TestNG-test-error validate Tests-4] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:06 INFO  [TestNG-PoolService-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:06 INFO  [TestNG-PoolService-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:06 INFO  [TestNG-PoolService-2] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:06 INFO  [TestNG-PoolService-2] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:06 INFO  [TestNG-test-error validate Tests-3] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:06 INFO  [TestNG-test-error validate Tests-4] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:06 INFO  [TestNG-test-error validate Tests-2] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:06 INFO  [TestNG-test-error validate Tests-2] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:06 INFO  [TestNG-test-error validate Tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:06 INFO  [TestNG-test-error validate Tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:38 INFO  [TestNG-test-error validate Tests-4] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:38 INFO  [TestNG-test-error validate Tests-2] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:38 INFO  [TestNG-test-error validate Tests-4] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:38 INFO  [TestNG-test-error validate Tests-2] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:39 INFO  [TestNG-test-error validate Tests-6] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:39 INFO  [TestNG-test-error validate Tests-6] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:49 INFO  [TestNG-test-error validate Tests-3] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:49 INFO  [TestNG-test-error validate Tests-3] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:49 INFO  [TestNG-test-error validate Tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:49 INFO  [TestNG-test-error validate Tests-2] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:49 INFO  [TestNG-test-error validate Tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:49 INFO  [TestNG-test-error validate Tests-2] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:43:56 INFO  [TestNG-test-error validate Tests-6] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:43:56 INFO  [TestNG-test-error validate Tests-6] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:44:03 ERROR [TestNG-test-error validate Tests-3] base.Listeners - Browser JS Error: https://rahulshettyacademy.com/api/ecom/auth/login - Failed to load resource: the server responded with a status of 400 (Bad Request)
+2026-08-04 08:44:03 INFO  [TestNG-test-error validate Tests-2] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:44:03 INFO  [TestNG-test-error validate Tests-2] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:44:06 INFO  [TestNG-test-error validate Tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:44:06 INFO  [TestNG-test-error validate Tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 08:44:12 INFO  [TestNG-test-error validate Tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 08:44:12 INFO  [TestNG-test-error validate Tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe

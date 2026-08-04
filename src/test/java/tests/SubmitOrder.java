@@ -1,11 +1,17 @@
 package tests;
 
 import base.BaseTest;
+import com.aventstack.extentreports.ExtentTest;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.LogType;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.Test;
 import pageobjects.*;
 
 import java.io.IOException;
+import java.util.logging.Level;
 
 public class SubmitOrder extends BaseTest {
 
@@ -35,4 +41,5 @@ public class SubmitOrder extends BaseTest {
 
 
     }
+
 }
