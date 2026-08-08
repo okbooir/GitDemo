@@ -31,6 +31,7 @@ import java.nio.file.Paths;
 import java.time.Duration;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Properties;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -110,12 +111,20 @@ public class BaseTest {
 
         String browserName = System.getProperty("browser")!=null ? System.getProperty("browser") : getProperty("browser");
         // String browserName = getProperty("browser");
+        String downloadPath = Paths.get(System.getProperty("user.dir"), "downloads").toString();
+
 
         if (browserName.toLowerCase().contains("chrome")) {
             ChromeOptions options = new ChromeOptions();
+            Map<String, Object> prefs = new HashMap<>();
+            prefs.put("download.default_directory", downloadPath);
+            prefs.put("download.prompt_for_download", false);
+            options.setExperimentalOption("prefs", prefs);
+
             LoggingPreferences logs = new LoggingPreferences();
             logs.enable(LogType.BROWSER, Level.ALL);
             options.setCapability("goog:loggingPrefs", logs);
+
             if (browserName.toLowerCase().contains("headless")) {
                 options.addArguments("--headless=new", "--window-size=1920,1080");            }
             WebDriverManager.chromedriver().setup();
@@ -146,9 +155,9 @@ public class BaseTest {
         }
 
         //getDriver().manage().window().setSize(new Dimension(1440,900)); // run in full screen
-        /*if (!browserName.toLowerCase().contains("headless")) {
+        if (!browserName.toLowerCase().contains("headless")) {
             getDriver().manage().window().maximize();
-        }*/
+        }
 
         getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         return getDriver();

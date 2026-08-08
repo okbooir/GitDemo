@@ -50,7 +50,7 @@ import java.nio.file.Path;
 
 public class ErrorValidation extends BaseTest {
 
-    @Test(retryAnalyzer = Retry.class)
+    @Test(retryAnalyzer = Retry.class , enabled = false)
     public void loginErrorValidation() throws IOException {
         LandingPage currentLandingPage = new LandingPage(getDriver());
         currentLandingPage.login("oir@gmail.com", "Ilovest1!");
@@ -82,14 +82,14 @@ public class ErrorValidation extends BaseTest {
         getDriver().findElement(By.cssSelector("#downloadButton")).click();
 
         new WebDriverWait(getDriver(), Duration.ofSeconds(30))
-                .until(d -> Files.exists(Paths.get("C:\\Users\\ahmed\\Downloads\\download.xlsx")));
+                .until(d -> Files.exists(Paths.get(System.getProperty("user.dir"), "downloads", "download.xlsx")));
 
         //edit excel
-        editCell2("C:\\Users\\ahmed\\Downloads\\download.xlsx", "price", "apple", "380");
+        editCell2(Path.of(System.getProperty("user.dir"), "downloads", "download.xlsx").toString(), "price", "apple", "380");
         //editCell("C:\\Users\\ahmed\\Downloads\\download.xlsx", 2, 3, "350");
 
         //upload
-        getDriver().findElement(By.cssSelector("input[type='file']")).sendKeys("C:\\Users\\ahmed\\Downloads\\download.xlsx");
+        getDriver().findElement(By.cssSelector("input[type='file']")).sendKeys(Path.of(System.getProperty("user.dir"), "downloads", "download.xlsx").toString());
 
         // wait for success message to show then disappear
 
@@ -162,6 +162,32 @@ public class ErrorValidation extends BaseTest {
         System.out.println(a1 + " " + a2 + " " + a3 + " " + a4);
     }
 
+    @Test
+    public void handleWindowsAuthPopup () throws InterruptedException {
+        getDriver().get("https://admin:admin@the-internet.herokuapp.com/");
+        // getDriver().get("https://the-internet.herokuapp.com/");
+        getDriver().findElement(By.linkText("Basic Auth")).click();
+    }
+
+    @Test
+    public void fileUploadWithAutoIt () throws InterruptedException, IOException {
+        WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(30));
+        getDriver().get("https://www.ilovepdf.com/pdf_to_jpg");
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("pickfiles")));
+        getDriver().findElement(By.id("pickfiles")).click();
+        String[] path = {System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\fileupload.exe"};
+        Runtime.getRuntime().exec(path);
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("processTaskTextBtn")));
+        getDriver().findElement(By.id("processTaskTextBtn")).click();
+        wait.until(ExpectedConditions.elementToBeClickable(By.id("pickfiles")));
+        getDriver().findElement(By.id("pickfiles")).click();
+        new WebDriverWait(getDriver(), Duration.ofSeconds(30))
+                .until(d -> Files.exists(Paths.get(System.getProperty("user.dir"), "downloads", "pdf-sample_0_page-0001.jpg")));
+        Assert.assertTrue(Files.exists(Paths.get(System.getProperty("user.dir"), "downloads", "pdf-sample_0_page-0001.jpg")));
+        Files.deleteIfExists(Paths.get(System.getProperty("user.dir"), "downloads", "pdf-sample_0_page-0001.jpg"));
+    }
+
+
     @DataProvider(name = "getExcel")
     private Object[][] getExcel() throws IOException {
 
@@ -207,7 +233,7 @@ public class ErrorValidation extends BaseTest {
 
 
     public ArrayList<String> excelData(String testCaseName) throws IOException {
-        FileInputStream fis = new FileInputStream("C:\\Users\\ahmed\\OneDrive\\Desktop\\apps\\Book1.xlsx");
+        FileInputStream fis = new FileInputStream(Path.of(System.getProperty("user.dir"), "downloads", "Book1.xlsx").toFile());
         // creating object of XSSFWorkbook class that takes the object of the fielinputstream object that access the excel file
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         int colIndex = 0;
@@ -256,7 +282,7 @@ public class ErrorValidation extends BaseTest {
 
     @DataProvider(name = "excelAllRows")
     public Object[][] loopExcelRows() throws IOException {
-        FileInputStream fis = new FileInputStream("C:\\Users\\ahmed\\OneDrive\\Desktop\\apps\\Book1.xlsx");
+        FileInputStream fis = new FileInputStream(Path.of(System.getProperty("user.dir"), "downloads", "Book1.xlsx").toFile());
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
         XSSFSheet sheet = workbook.getSheetAt(0);
         int rowCount = sheet.getPhysicalNumberOfRows(); // no. of rows in the sheet

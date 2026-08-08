@@ -231,3 +231,239 @@
 2026-08-04 10:11:49 INFO  [TestNG-test-error validate Tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
 2026-08-04 10:11:50 INFO  [TestNG-test-error validate Tests-2] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
 2026-08-04 10:11:50 INFO  [TestNG-test-error validate Tests-2] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 10:19:58 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runalltests.xml
+
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-10] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-6] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-4] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-8] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-9] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-5] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-7] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-2] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-3] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-7] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-8] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-6] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-10] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-5] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-9] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-4] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-2] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-04 10:20:00 INFO  [TestNG-test-error validate Tests-3] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-06 04:11:32 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-08-06 04:11:34 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-08-06 04:11:34 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+2026-08-07 04:04:47 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-08-07 04:04:50 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:04:50 INFO  [main] io.github.bonigarcia.wdm.online.Downloader - Downloading https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.77/win64/chromedriver-win64.zip
+2026-08-07 04:04:57 INFO  [main] io.github.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+2026-08-07 04:04:58 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:05:12 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:05:12 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:05:25 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:05:25 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:05:29 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:05:29 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:07:09 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-08-07 04:07:10 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:07:10 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:07:24 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:07:24 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:07:30 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:07:30 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:10:25 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-08-07 04:10:25 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:10:25 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:10:29 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:10:29 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:10:34 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:10:34 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:10:39 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:10:39 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:10:45 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:10:46 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:10:58 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:10:58 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:11:03 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:11:03 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:11:06 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:11:06 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:11:12 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:11:12 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:11:17 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:11:17 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:11:22 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:11:22 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:11:28 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:11:28 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:11:34 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:11:34 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:11:41 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:11:41 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:11:47 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:11:47 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:11:51 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:11:51 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:11:54 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:11:54 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:11:58 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:11:58 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 04:12:02 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 04:12:02 INFO  [main] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 22:57:48 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-07 22:57:49 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 22:57:49 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 22:58:52 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-08-07 22:58:58 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-07 22:58:58 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 22:58:58 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 23:00:08 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-07 23:00:08 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 23:00:08 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 23:01:07 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-07 23:01:07 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 23:01:07 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 23:01:45 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-07 23:01:45 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 23:01:45 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 23:47:05 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-07 23:47:05 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 23:47:05 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 23:49:51 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-07 23:49:51 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 23:49:51 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-07 23:57:33 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-07 23:57:33 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-07 23:57:33 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 00:03:58 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 00:04:00 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 00:04:00 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:03:35 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:03:37 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:03:37 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:06:10 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:06:10 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:06:10 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:07:11 WARN  [TestNG-tests-1] base.Listeners - Browser console logs could not be captured: invalid session id
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87959f29447ae5d544d73f0fad3a629e, getLog {type=browser}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.76, chrome: {chromedriverVersion: 151.0.7922.77 (ff37cfca2101..., userDataDir: C:\Users\ahmed\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50035}, goog:processID: 2984, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50035/devtoo..., se:cdpVersion: 151.0.7922.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 87959f29447ae5d544d73f0fad3a629e
+2026-08-08 02:08:01 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:08:02 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:08:02 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:09:00 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:09:01 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:09:01 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:16:24 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:16:24 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:16:24 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:19:32 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:19:32 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:19:32 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:20:31 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:20:32 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:20:32 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:21:59 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:22:00 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:22:00 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:22:58 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:22:59 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:22:59 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:28:50 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:28:51 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:28:51 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:31:38 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:31:39 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:31:39 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:32:21 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:32:22 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:32:22 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:34:08 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:34:09 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:34:09 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:35:01 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:35:02 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:35:02 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 02:36:03 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 02:36:04 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 02:36:04 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 03:47:19 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 03:47:20 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 03:47:20 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 03:51:00 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 03:51:00 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 03:51:00 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 04:04:13 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 04:04:13 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 04:04:13 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe

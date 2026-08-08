@@ -23,7 +23,7 @@
         <classes>
             <class name="tests.ErrorValidation">
                  <methods>
-                   <include name="loginErrorValidation"/>
+                   <include name="upload_and_download"/>
               </methods>
             </class>
         </classes>
