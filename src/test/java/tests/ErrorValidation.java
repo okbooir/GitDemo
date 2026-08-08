@@ -50,7 +50,7 @@ import java.nio.file.Path;
 
 public class ErrorValidation extends BaseTest {
 
-    @Test(retryAnalyzer = Retry.class , enabled = false)
+    @Test(retryAnalyzer = Retry.class)
     public void loginErrorValidation() throws IOException {
         LandingPage currentLandingPage = new LandingPage(getDriver());
         currentLandingPage.login("oir@gmail.com", "Ilovest1!");

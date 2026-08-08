@@ -220,7 +220,7 @@ public class BaseTest {
                         + System.identityHashCode(getDriver())
         );
 
-        return destination;
+        return testCaseName + ".png";
 
     }
 

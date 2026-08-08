@@ -23,7 +23,7 @@
         <classes>
             <class name="tests.ErrorValidation">
                  <methods>
-                   <include name="fileUploadWithAutoIt"/>
+                   <include name="loginErrorValidation"/>
               </methods>
             </class>
         </classes>

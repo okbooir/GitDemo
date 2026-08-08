@@ -477,3 +477,21 @@ Session ID: 87959f29447ae5d544d73f0fad3a629e
 
 2026-08-08 05:12:25 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
 2026-08-08 05:12:25 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 05:31:58 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 05:31:58 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 05:31:58 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 05:53:42 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 05:53:42 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 05:53:42 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 05:54:19 INFO  [main] org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\ahmed\IdeaProjects\ecommerceFramework\runsingletest.xml
+
+2026-08-08 05:54:20 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 05:54:20 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 05:54:25 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 151.0.7922.77 (resolved driver for Chrome 151)
+2026-08-08 05:54:25 INFO  [TestNG-tests-1] io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ahmed\.cache\selenium\chromedriver\win64\151.0.7922.77\chromedriver.exe
+2026-08-08 05:54:29 ERROR [TestNG-tests-1] base.Listeners - Browser JS Error: https://rahulshettyacademy.com/api/ecom/auth/login - Failed to load resource: the server responded with a status of 400 (Bad Request)
