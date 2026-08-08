@@ -176,30 +176,8 @@ public class ErrorValidation extends BaseTest {
         wait.until(ExpectedConditions.elementToBeClickable(By.id("pickfiles")));
         getDriver().findElement(By.id("pickfiles")).click();
 
-        String pdfPath = Path.of(
-                System.getProperty("user.dir"),
-                "src",
-                "test",
-                "resources",
-                "pdf-sample_0.pdf"
-        ).toString();
-
-        String exePath = Path.of(
-                System.getProperty("user.dir"),
-                "src",
-                "test",
-                "resources",
-                "executables",
-                "fileupload.exe"
-        ).toString();
-
-        Runtime.getRuntime().exec(new String[]{
-                exePath,
-                pdfPath
-        });
-
-        //String[] path = {System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\fileupload.exe"};
-        //Runtime.getRuntime().exec(path);
+        String[] path = {System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\fileupload.exe"};
+        Runtime.getRuntime().exec(path);
         wait.until(ExpectedConditions.elementToBeClickable(By.id("processTaskTextBtn")));
         getDriver().findElement(By.id("processTaskTextBtn")).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.id("pickfiles")));

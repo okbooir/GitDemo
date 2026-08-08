@@ -21,7 +21,7 @@ jobs:
           cache: maven
 
       - name: Run Selenium Tests
-        run: mvn clean test -PRegression -Dbrowser=chrome -DtrimStackTrace=false -e
+        run: mvn clean test -PRegression -Dbrowser=chromeheadless -DtrimStackTrace=false -e
 
       - name: Upload Extent Report
         if: always()
