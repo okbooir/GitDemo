@@ -117,8 +117,10 @@ public class BaseTest {
         if (browserName.toLowerCase().contains("chrome")) {
             ChromeOptions options = new ChromeOptions();
             Map<String, Object> prefs = new HashMap<>();
+            // prefs.put("profile.default_content_settings.popups",0);  // if you want block browser popups
+            prefs.put("profile.default_content_setting_values.notifications", 2); // don't allow notifications from websites
             prefs.put("download.default_directory", downloadPath);
-            prefs.put("download.prompt_for_download", false);
+            prefs.put("download.prompt_for_download", false); // download file automatic without asking for download path
             options.setExperimentalOption("prefs", prefs);
 
             LoggingPreferences logs = new LoggingPreferences();
